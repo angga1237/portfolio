@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Document</title>
+
+    <!-- font poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet"
+    />
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="/src/css/style.css" />
+</head>
+<body>
+    <!-- cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <a href="https://github.com">Muhammad<span>Angga</span>.
+            </a>
+        </div>
+        <div class="nav-link">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skils">Skills</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+    <section class="hero animate-on-scroll" id="home">
+        <div class="stars-container"></div>
+        <div class="hexagon-container">
+            <div class="hexagon"></div>
+            <div class="hexagon"></div>
+            <div class="hexagon"></div>
+        </div>
+        <main class="content">
+            <div class="marquee">
+                <span class="text">Muhammad Angga Ferdiansyah</span>
+                <span class="text">Muhammad Angga Ferdiansyah</span>
+            </div>
+            <div class="cta">
+                <a href="#about">About me</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com" target="_blank">
+                    <i data-feather="github"></i>
+                </a>
+                <a href="mailto:anggalord19@gmail.com">
+                    <i data-feather="mail"></i>
+                </a>
+                <a href="https://instagram.com/" target="_blank">
+                    <i data-feather="instagram"></i>
+                </a>
+            </div>
+        </main>
+        <div class="lanyard-container">
+            <div class="rope"></div>
+            <div class="lanyard-card">
+                <img src="src/img/Boy.jpg" alt="Lanyard" draggable="false" />
+            </div>
+        </div>
+        <!-- load -->
+        <div class="cube-loader">
+            <div class="cube-top"></div>
+            <div class="cube-wrapper">
+                <span style="--i:0" class="cube-span"></span>
+                <span style="--i:1" class="cube-span"></span>
+                <span style="--i:2" class="cube-span"></span>
+                <span style="--i:3" class="cube-span"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about animate-on-scroll" id="about">
+        <h1>About <span>Me</span></h1>
+        <main class="about-container">
+            <div class="profile-img">
+                <div class="geo-bg">
+                    <div class="geo-circle"></div>
+                    <div class="geo-hex"></div>
+                    <div class="geo-triangle"></div>
+                </div>
+                <img src="src/img/Angga.JPG" alt="profile" />
+            </div>
+            <div class="bio">
+                <h2>Hy there 👋, I'm <span>Muhammad Angga Ferdiansyah</span></h2>
+                <h3>And I'm a <span class="typed-text"></span></h3>
+                <p>
+                    I am a student at SMK N 2 Tebo majoring in DKV, with a dream to become an TNI or AI engineer. I love to learn new things independently, especially in technology. My hobbies include coding, design, photography, and photo manipulation. I am passionate about creativity, always eager to explore new ideas, and enjoy collaborating with others to create something meaningful and impactful.
+                </p>
+            </div>
+        </main>
+        <div class="details">
+            <div class="details-left">
+                <h2>Personal Info</h2>
+                <ul>
+                    <li><strong>Full Name:</strong> Muhammad Angga Ferdiansyah</li>
+                    <li><strong>Age:</strong> 16</li>
+                    <li><strong>Address:</strong> Tebo, Jambi, Indonesia</li>
+                    <li><strong>School:</strong> SMK N 2 Tebo</li>
+                    <li><strong>Major:</strong> DKV (Desain Komunikasi Visual)</li>
+                    <li><strong>Email:</strong> anggalord19@gmail.com</li>
+                </ul>
+            </div>
+            <div class="details-right">
+                <h2>Interests</h2>
+                <div class="interest-cards">
+                    <div class="interest-card"><i class="fas fa-code"></i><span>Coding</span></div>
+                    <div class="interest-card"><i class="fas fa-camera-retro"></i><span>Photography</span></div>
+                    <div class="interest-card"><i class="fas fa-paint-brush"></i><span>Design</span></div>
+                    <div class="interest-card"><i class="fa-solid fa-gamepad"></i></i><span>Game</span></div>
+                    <div class="interest-card"><i class="fas fa-music"></i><span>Music</span></div>
+                    <div class="interest-card"><i class="fas fa-money-bill-wave"></i><span>Money</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+    
+    <!-- skils -->
+    <section class="skills-section animate-on-scroll" id="skills">
+        <div class="skills-title">
+            <h2>My <span>Skills</span></h2>
+            <p>the field of technology and skills that I am pursuing</p>
+        </div>
+
+        <!-- python -->
+        <div class="skills-grid">
+            <div class="skills-card">
+                <div class="skill-level">Intermediate</div>
+                <div class="glow-effect"></div>
+                <div class="card-content">
+                    <div class="skill-icon">
+                        <img src="src/img/python.png" alt="Python logo" />
+                    </div>
+                    <h3 class="skill-title">Python</h3>
+                    <p class="skill-description">Proficient in writing clean and efficient Python code for a variety of use cases including data processing, automation, and scripting. Familiar with key concepts such as object-oriented programming, data structures, and libraries integration.</p>
+            </div>
+        </div>
+
+
+        <!-- HTML -->
+        <div class="skills-grid">
+            <div class="skills-card">
+                <div class="skill-level">Intermediate</div>
+                <div class="glow-effect"></div>
+                <div class="card-content">
+                    <div class="skill-icon">
+                        <img src="src/img/html-5.png" alt="html-5 logo" />
+                    </div>
+                    <h3 class="skill-title">html-5</h3>
+                    <p class="skill-description">Solid understanding of semantic HTML5 for structuring accessible and well-organized web pages. Able to build responsive layouts with clean and modern markup practices.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CSS -->
+        <div class="skills-grid">
+            <div class="skills-card">
+                <div class="skill-level">Intermediate</div>
+                <div class="glow-effect"></div>
+                <div class="card-content">
+                    <div class="skill-icon">
+                        <img src="src/img/css-3.png" alt="css-3 logo" />
+                    </div>
+                    <h3 class="skill-title">css-3</h3>
+                    <p class="skill-description">Competent in styling responsive websites using CSS3. Familiar with Flexbox, Grid, media queries, transitions, and custom animations to enhance user interface design.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- js -->
+        <div class="skills-grid">
+            <div class="skills-card">
+                <div class="skill-level">Intermediate</div>
+                <div class="glow-effect"></div>
+                <div class="card-content">
+                    <div class="skill-icon">
+                        <img src="src/img/js.png" alt="js logo" />
+                    </div>
+                    <h3 class="skill-title">js</h3>
+                    <p class="skill-description">Good command of core JavaScript concepts such as variables, functions, events, and DOM manipulation. Able to add interactivity and logic to front-end projects effectively.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!--cli-->
+        <div class="skills-grid">
+            <div class="skills-card">
+                <div class="skill-level">Intermediate</div>
+                <div class="glow-effect"></div>
+                <div class="card-content">
+                    <div class="skill-icon">
+                        <img src="src/img/cli.png" alt="cli logo" />
+                    </div>
+                    <h3 class="skill-title">CLI</h3>
+                    <p class="skill-description">Comfortable with version control workflows using Git. Experienced with branching, committing, pushing to remote repositories, and collaborating via GitHub.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- photoshop -->
+        <div class="skills-grid">
+            <div class="skills-card">
+                <div class="skill-level">Intermediate</div>
+                <div class="glow-effect"></div>
+                <div class="card-content">
+                    <div class="skill-icon">
+                        <img src="src/img/photoshop.png" alt="photoshop logo" />
+                    </div>
+                    <h3 class="skill-title">photoshop</h3>
+                    <p class="skill-description">Experienced in photo editing, layer-based design, and basic digital art using Photoshop. Capable of creating visual assets, mockups, and social media content.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- coreldraw -->
+        <div class="skills-grid">
+            <div class="skills-card">
+                <div class="skill-level">Intermediate</div>
+                <div class="glow-effect"></div>
+                <div class="card-content">
+                    <div class="skill-icon">
+                        <img src="src/img/coreldraw.png" alt="coreldraw logo" />
+                    </div>
+                    <h3 class="skill-title">coreldraw</h3>
+                    <p class="skill-description">Proficient in vector-based graphic design using CorelDRAW. Skilled in creating logos, promotional materials, and print-ready layouts with attention to composition and typography.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- project -->
+    <section class="project-section animate-on-scroll" id="project">
+        <h2>My <span class="highlight">Projects</span></h2>
+        <p>These are some contributions to a project or a personal project that I have worked on.</p>
+        <div class="slider-container">
+            <div class="slider" id="projectSlider">
+                <div class="slide">
+                    <img src="src/img/github-icons.jpeg" alt="Project 1">
+                    <div class="slide-content">
+                        <h3>Next update</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel voluptas excepturi eaque.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="src/img/github-icons.jpeg" alt="Project 2">
+                    <div class="slide-content">
+                        <h3>Next update</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti in excepturi dolorem?</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="src/img/github-icons.jpeg" alt="Project 3">
+                    <div class="slide-content">
+                        <h3>Next update</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo a obcaecati iusto?</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="src/img/github-icons.jpeg" alt="Project 4">
+                    <div class="slide-content">
+                        <h3>Next update</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eos nihil magni?</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+
+                </div>
+            <button class="slider-nav prev">&lt;</button>
+            <button class="slider-nav next">&gt;</button>
+        </div>
+    </section>
+    <!-- project end -->
+    
+    <!-- contact -->
+    <section class="contact animate-on-scroll" id="contact">
+        <main class="contact-container">
+
+            <div class="header">
+                <h1>Contact <span>Me</span></h1>
+                <p>Let's connect and create something amazing together</p>
+            </div>
+    
+            <div class="contact-toggle">
+                <div class="toggle-slider" id="toggleSlider"></div>
+                <div class="toggle-option active" id="emailToggle">
+                    <i data-feather="mail"></i>
+                    Email
+                </div>
+                <div class="toggle-option" id="whatsappToggle">
+                    <i class="fab fa-whatsapp"></i>
+                    WhatsApp
+                </div>
+            </div>
+    
+            <div class="success-message" id="successMessage">
+                <i data-feather="check-circle"></i>
+                <span>Message sent successfully!</span>
+            </div>
+    
+            <div class="form-container">
+                <!-- Email Form -->
+                <div class="form-section active" id="emailForm">
+                    <form id="emailContactForm">
+                        <div class="form-group">
+                            <label for="emailName">
+                                <i data-feather="user"></i>
+                                Full Name
+                            </label>
+                            <input type="text" id="emailName" name="name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="emailAddress">
+                                <i data-feather="mail"></i>
+                                Email Address
+                            </label>
+                            <input type="email" id="emailAddress" name="email" placeholder="your.email@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="emailSubject">
+                                <i data-feather="tag"></i>
+                                Subject
+                            </label>
+                            <input type="text" id="emailSubject" name="subject" placeholder="What's this about?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="emailMessage">
+                                <i data-feather="message-square"></i>
+                                Message
+                            </label>
+                            <textarea id="emailMessage" name="message" placeholder="Tell me about your project or inquiry..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i data-feather="send"></i>
+                            <div class="loading" id="emailLoading"></div>
+                            <span id="emailButtonText">Send Email</span>
+                        </button>
+                    </form>
+                </div>
+    
+                <!-- WhatsApp Form -->
+                <div class="form-section" id="whatsappForm">
+                    <form id="whatsappContactForm">
+                        <div class="form-group">
+                            <label for="whatsappName">
+                                <i data-feather="user"></i>
+                                Full Name
+                            </label>
+                            <input type="text" id="whatsappName" name="name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group phone-input">
+                            <label for="whatsappPhone">
+                                <i data-feather="phone"></i>
+                                WhatsApp Number
+                            </label>
+                            <div class="phone-prefix">+62</div>
+                            <input type="tel" id="whatsappPhone" name="phone" placeholder="812-3456-7890" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="whatsappMessage">
+                                <i class="fab fa-whatsapp"></i>
+                                Message
+                            </label>
+                            <textarea id="whatsappMessage" name="message" placeholder="Hi Angga! I'd like to discuss..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            <div class="loading" id="whatsappLoading"></div>
+                            <span id="whatsappButtonText">Send via WhatsApp</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </section>
+    <!-- contact end -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <h1>Muhammad <span>Angga</span></h1>
+            <div class="social-links">
+                <ul>
+                    <li><a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://instagram.com/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://wa.me/6287776624014" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
+                    <li><a href="https://www.tiktok.com/@" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a></li>
+                    <li><a href="https://youtube.com/si=p7sNodFzwN0F3rvc" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-copyright">
+                &copy; 2024 Muhammad Angga Ferdiansyah. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- feather icons -->
+    <script>
+        feather.replace();
+    </script>
+    <!-- js -->
+    <script src="src/js/slider.js"></script>
+    <script src="src/js/script.js"></script>
+    <script src="src/js/effects.js"></script>
+</body>
+</html>
